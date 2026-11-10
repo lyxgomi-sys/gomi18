@@ -1037,7 +1037,6 @@ GameObject:
   m_Component:
   - component: {fileID: 355004298}
   - component: {fileID: 355004300}
-  - component: {fileID: 355004299}
   m_Layer: 0
   m_Name: "\uC561\uC790\uC138\uD2B8 (2)"
   m_TagString: Untagged
@@ -1065,20 +1064,6 @@ Transform:
   - {fileID: 68565358}
   m_Father: {fileID: 62330397}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &355004299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 355004297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4effdd1a7f7dbc049be20a836e509585, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Exhibit
-  panel: {fileID: 228400079}
-  prompt: {fileID: 68565357}
 --- !u!65 &355004300
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2047,7 +2032,6 @@ GameObject:
   m_Component:
   - component: {fileID: 717836903}
   - component: {fileID: 717836905}
-  - component: {fileID: 717836904}
   m_Layer: 0
   m_Name: "\uC561\uC790\uC138\uD2B8 (1)"
   m_TagString: Untagged
@@ -2075,20 +2059,6 @@ Transform:
   - {fileID: 1258403699}
   m_Father: {fileID: 62330397}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &717836904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 717836902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4effdd1a7f7dbc049be20a836e509585, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Exhibit
-  panel: {fileID: 1738644082}
-  prompt: {fileID: 1258403698}
 --- !u!65 &717836905
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4188,7 +4158,7 @@ Transform:
   m_GameObject: {fileID: 1687591847}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.56, y: 0.988, z: -2.03}
+  m_LocalPosition: {x: 0.56, y: 0.988, z: -2.93}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4315,7 +4285,7 @@ Transform:
   m_GameObject: {fileID: 1693814408}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.02, y: 0.988, z: 0.41}
+  m_LocalPosition: {x: -2.78, y: 0.988, z: 0.41}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4406,7 +4376,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1736108044}
   - component: {fileID: 1736108046}
-  - component: {fileID: 1736108045}
   m_Layer: 0
   m_Name: "\uC561\uC790\uC138\uD2B8"
   m_TagString: Untagged
@@ -4434,20 +4403,6 @@ Transform:
   - {fileID: 517576124}
   m_Father: {fileID: 62330397}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1736108045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1736108043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4effdd1a7f7dbc049be20a836e509585, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Exhibit
-  panel: {fileID: 802582082}
-  prompt: {fileID: 517576123}
 --- !u!65 &1736108046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5705,7 +5660,7 @@ Transform:
   m_GameObject: {fileID: 2110458926}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.98, y: 0.988, z: 0.41}
+  m_LocalPosition: {x: 3.07, y: 0.988, z: 1.1}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
